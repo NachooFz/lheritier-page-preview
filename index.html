@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Lheritier — Propuesta de rediseño</title>
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="ribbon">Propuesta de rediseño · Vista previa para Lheritier Argentina S.A.</div>
+
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="#inicio" aria-label="Lheritier, inicio"><img src="assets/img/logo-lheritier.webp" alt="Lheritier" width="123" height="44"></a>
+    <nav aria-label="Principal">
+      <a href="#empresa">Empresa</a><a href="#productos">Productos</a><a href="#catalogo">Catálogo</a><a href="#marcas-propias">Marcas propias</a><a href="#inicio">Novedades</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button aria-pressed="true">ES</button><button aria-pressed="false">EN</button><button aria-pressed="false">PT</button>
+    </div>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="wrap" aria-label="Novedades destacadas">
+    <div class="hero" id="hero" tabindex="0">
+      <div class="slide on" style="background:#3A1B5C;color:#fff;--dot:#fff">
+        <div class="txt">
+          <span class="tag" style="background:#FF8A1F;color:var(--ink)">Edición Halloween</span>
+          <h1>Bola Loca se pone terrorífica.</h1>
+          <p>Chupetines sabor sandía y arándanos con relleno efervescente.</p>
+          <a class="btn" href="#productos" style="background:#fff;color:#3A1B5C">Ver Bola Loca</a>
+        </div>
+        <img class="pic" src="assets/img/hero-bolaloca.webp" alt="Bolsa de chupetines Bola Loca edición Halloween">
+      </div>
+      <div class="slide" style="background:#1458B8;color:#fff;--dot:#fff">
+        <div class="txt">
+          <span class="tag" style="background:var(--sun);color:var(--ink)">Nuevo</span>
+          <h1>Baby Doll Misterio.</h1>
+          <p>3 chupetines y un juguete coleccionable en cada blíster.</p>
+          <a class="btn" href="#productos" style="background:var(--sun);color:var(--ink)">Descubrir</a>
+        </div>
+        <img class="pic" src="assets/img/hero-babydoll.webp" alt="Exhibidor y blíster de Baby Doll Misterio con personajes coleccionables">
+      </div>
+      <div class="slide" style="background:#FFF1D6;color:var(--ink);--dot:var(--ink)">
+        <div class="txt">
+          <span class="tag" style="background:#2F7D3A;color:#fff">Sin azúcares agregados</span>
+          <h1>El Pocillo, el de siempre.</h1>
+          <p>Cebada tostada instantánea fortificada con vitaminas.</p>
+          <a class="btn" href="#productos" style="background:var(--red);color:#fff">Ver El Pocillo</a>
+        </div>
+        <img class="pic" src="assets/img/hero-pocillo.webp" alt="Envases de El Pocillo">
+      </div>
+      <div class="dots" id="dots"></div>
+    </div>
+  </section>
+
+  <section class="marquee" aria-label="Nuestras marcas"><div class="track" id="track"></div></section>
+
+  <section class="wrap sec" id="productos" style="padding-top:40px">
+    <div class="head">
+      <div><p class="eyebrow">Productos</p><h2>¿Qué se te antoja hoy?</h2></div>
+      <a class="btn outline" href="#productos">Ver las 18 categorías</a>
+    </div>
+    <div class="cats" id="cats"></div>
+  </section>
+
+  <section class="red" id="empresa">
+    <div class="wrap sec two">
+      <div>
+        <p class="eyebrow" style="color:#FFD9D6">Empresa</p>
+        <h2>Una familia haciendo dulces desde 1896.</h2>
+        <p style="margin:24px 0 0;font-size:19px;color:#FFF1EF">Nacimos en San Carlos Norte, Santa Fe. Hoy elaboramos golosinas, infusiones, panificados y más para la Argentina y el mundo.</p>
+        <div class="pills"><a href="#empresa">Historia</a><a href="#empresa">Misión y visión</a><a href="#empresa">Sustentabilidad y RSE</a><a href="#empresa">Calidad e inocuidad</a><a href="#empresa">Seguridad e higiene</a></div>
+      </div>
+      <div>
+        <div class="mile" style="background:#fff;color:var(--ink);transform:rotate(-1deg)"><b>1896</b><span>Juan María Lheritier y Juan Orse fundan la empresa en San Carlos Norte.</span></div>
+        <div class="mile" style="background:var(--sun);color:var(--ink);transform:rotate(1deg)"><b>1958</b><span>Nueva planta con tecnología alemana, italiana e inglesa.</span></div>
+        <div class="mile" style="background:var(--ink);color:#fff;transform:rotate(-.5deg)"><b>2017</b><span>Llegan Bessone, El Pocillo y Malta Maltifé.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <div class="wrap sec two">
+      <div>
+        <p class="eyebrow" style="color:var(--sun)">Comercio exterior</p>
+        <p class="big">+<span id="count">20</span></p>
+        <p style="margin:10px 0 22px;font-size:26px;font-weight:600">mercados externos</p>
+        <p style="margin:0;color:#E9DCCF">América del Norte, América Central y Caribe, América del Sur, Europa, Medio Oriente y África, con marcas adaptadas a cada destino.</p>
+      </div>
+      <div class="map" role="img" aria-label="Regiones de exportación"><svg id="map" viewBox="0 0 600 380" aria-hidden="true"></svg></div>
+    </div>
+  </section>
+
+  <section class="wrap sec" id="marcas-propias" style="padding-bottom:40px">
+    <h2 style="margin-bottom:8px">Marcas propias</h2>
+    <p style="margin:0 0 32px;color:var(--muted)">Elaboramos líneas para las principales cadenas del país.</p>
+    <div class="retail" id="retail"></div>
+  </section>
+
+  <section class="wrap two" style="padding-bottom:100px;align-items:stretch">
+    <div class="panel" id="catalogo" style="background:var(--sun);display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+      <h2 style="font-size:40px">Catálogos 2026</h2>
+      <div>
+        <a class="pdf" href="#catalogo">Catálogo de productos <span>PDF ↓</span></a>
+        <a class="pdf" href="#catalogo">Catálogo Fiestas <span>PDF ↓</span></a>
+      </div>
+    </div>
+    <div class="panel" id="contacto" style="background:#fff;border:1px solid var(--line)">
+      <h2 style="font-size:40px;margin-bottom:6px">Hablemos</h2>
+      <p style="margin:0 0 22px;font-size:15px;color:var(--muted)">Planta: San Carlos Centro, Santa Fe · Oficina comercial: Ciudad de Buenos Aires</p>
+      <form id="form">
+        <label for="f1">Nombre<input id="f1"></label>
+        <label for="f2">Apellido<input id="f2"></label>
+        <label for="f3">Email<input id="f3" type="email"></label>
+        <label for="f4">Teléfono<input id="f4" type="tel"></label>
+        <label class="full" for="f5">Área<select id="f5"><option>Atención al consumidor</option><option>Contacto comercial</option><option>Recursos humanos</option><option>Mercado externo</option><option>Denuncias</option></select></label>
+        <label class="full" for="f6">Mensaje<textarea id="f6" rows="3"></textarea></label>
+        <button class="btn" style="background:var(--red);color:#fff;justify-self:start">Enviar</button>
+        <p class="note" id="note" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© Lheritier Argentina S.A.</span>
+    <span style="display:flex;flex-wrap:wrap;gap:20px"><a href="#inicio">Programa de Integridad</a><a href="#inicio">Instagram</a><a href="#inicio">Facebook</a><a href="#inicio">YouTube</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
